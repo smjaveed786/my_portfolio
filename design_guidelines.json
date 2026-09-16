@@ -1,0 +1,133 @@
+{
+  "project_name": "Shaik Mohammad Javeed Ahamed Portfolio",
+  "theme": "Dark Futuristic Cinematic AI Workspace",
+  "persona": "E1 Creative Designer & AI Architect",
+  "target_audience": "Recruiters, Engineering Managers, Tech Founders, AI Researchers, Web3/AI Collaborators",
+  "typography": {
+    "headings": "Space Grotesk, sans-serif (Font Weight 700 / 800, tracking-tight)",
+    "body": "Inter, sans-serif (Font Weight 400 / 500, leading-relaxed)",
+    "monospace": "JetBrains Mono, monospace (Font Weight 400 / 600, tracking-wide)",
+    "scale": {
+      "h1_hero": "text-4xl sm:text-5xl lg:text-6xl font-bold tracking-tight",
+      "h2_section": "text-2xl sm:text-3xl lg:text-4xl font-bold tracking-tight",
+      "h3_card": "text-xl sm:text-2xl font-semibold",
+      "body": "text-base text-slate-300",
+      "mono_label": "text-xs font-mono uppercase tracking-[0.2em] text-cyan-400"
+    }
+  },
+  "colors": {
+    "background_base": "#0B0C10",
+    "background_card": "rgba(15, 23, 42, 0.65)",
+    "background_elevated": "#121826",
+    "text_primary": "#F8FAFC",
+    "text_secondary": "#94A3B8",
+    "text_muted": "#64748B",
+    "accent_cyan": "#00F0FF",
+    "accent_purple": "#A855F7",
+    "accent_blue": "#3B82F6",
+    "border_glow": "rgba(0, 240, 255, 0.25)",
+    "glass_border": "rgba(255, 255, 255, 0.1)"
+  },
+  "surface_strategies": {
+    "glassmorphism": "backdrop-blur-xl bg-slate-900/60 border border-white/10 shadow-[0_8px_32px_0_rgba(0,0,0,0.37)] hover:border-cyan-500/40 transition-all duration-300",
+    "tracing_beam": "Glowing dynamic gradient border moving along card edges with cyan/purple blur effect",
+    "grid_background": "Subtle 3D coordinate grid with 5% opacity cyan lines and ambient gradient radial spotlight following cursor"
+  },
+  "layout_and_grids": {
+    "hero": "Full screen 100vh relative overflow-hidden flex flex-col justify-center items-start px-6 md:px-16 lg:px-24",
+    "bento_grid_projects": "grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 lg:gap-8",
+    "about_cards": "grid grid-cols-1 md:grid-cols-3 gap-6",
+    "skills_universe": "Interactive WebGL Canvas viewport container with floating details sidebar",
+    "timeline": "Vertical glowing spine with alternating or stacked glass cards and active 3D pulsing nodes"
+  },
+  "interactive_3d_features": {
+    "hero_background": "React Three Fiber Canvas with interactive particle field, floating matrix code blocks, rotating wireframe torus knot / octahedron, mouse parallax tracking",
+    "skills_universe": "Orbiting 3D spheres representing React, Python, Agentic AI, PyTorch, TypeScript, FastAPI around a central glowing 'JAVEED' core",
+    "code_editor": "Interactive 3D glass code window with live multi-tab syntax-highlighted typing effect for Agentic AI pipeline definition",
+    "card_tilt": "3D tilt effect on project and experience cards responding to cursor hover coordinates"
+  },
+  "media_assets": {
+    "image_info_list": [
+      {
+        "category": "hero_3d_abstract",
+        "image_url": "https://images.unsplash.com/photo-1750969185331-e03829f72c7d?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwzfHxkZXZlbG9wZXIlMjBBSSUyMGNvZGluZyUyMDNEJTIwYWJzdHJhY3QlMjBwYXJ0aWNsZSUyMG5lb24lMjBibHVlJTIwcHVycGxlfGVufDB8fHx8MTc4OTU4NDQ2MXww&ixlib=rb-4.1.0&q=85",
+        "description": "Abstract blue lines and dots particle network on dark background"
+      },
+      {
+        "category": "code_reflection_glass",
+        "image_url": "https://images.pexels.com/photos/18069696/pexels-photo-18069696.png?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940",
+        "description": "Abstract glass surfaces reflecting digital text creating a futuristic tech ambiance"
+      },
+      {
+        "category": "neon_swirl_background",
+        "image_url": "https://images.unsplash.com/photo-1557264337-e8a93017fe92?crop=entropy&cs=srgb&fm=jpg&ixid=M3w4NjAzNDR8MHwxfHNlYXJjaHwyfHxkZXZlbG9wZXIlMjBBSSUyMGNvZGluZyUyMDNEJTIwYWJzdHJhY3QlMjBwYXJ0aWNsZSUyMG5lb24lMjBibHVlJTIwcHVycGxlfGVufDB8fHx8MTc4OTU4NDQ2MXww&ixlib=rb-4.1.0&q=85",
+        "description": "Cyan and purple liquid swirling depth overlay"
+      }
+    ]
+  },
+  "sections_breakdown": [
+    {
+      "section": "Navbar",
+      "description": "Floating glassmorphic top navigation with smooth scroll links (About, Experience, Projects, Skills, Code, Certifications, Contact), status pill 'OPEN TO OPPORTUNITIES', and resume CTA"
+    },
+    {
+      "section": "Hero",
+      "description": "Full-screen kinetic hero with 3D WebGL interactive particle canvas, line-by-line kinetic headline reveal, magnetic CTA buttons ('View Projects', 'Download Resume', 'Contact Me'), and background floating code stream"
+    },
+    {
+      "section": "About",
+      "description": "Three floating 3D glass cards highlighting 'Agentic AI Systems', 'Full-Stack Architecture', and 'Data Science & Machine Learning' with interactive hover depth"
+    },
+    {
+      "section": "Experience Timeline",
+      "description": "Vertical line with 3D glowing nodes, interactive expandable glass cards detailing roles, achievements, and tech stacks"
+    },
+    {
+      "section": "Featured Projects",
+      "description": "6 large 3D tilt glass cards with live demo links, GitHub code buttons, technology tags, and key architecture highlights"
+    },
+    {
+      "section": "Code Atmosphere / Code Editor",
+      "description": "'CODE THAT BUILDS THE FUTURE' section with floating 3D code terminal, real-time typing animation for custom AI agent logic, and tab switcher"
+    },
+    {
+      "section": "Interactive Skill Universe",
+      "description": "3D Canvas where tech nodes orbit a glowing central 'JAVEED' sphere; hovering over nodes highlights connections and updates detailed skill stats"
+    },
+    {
+      "section": "Certifications & Education",
+      "description": "Editorial slow infinite marquee for certifications combined with a high-density 3D card for Education & Research Publications"
+    },
+    {
+      "section": "Contact",
+      "description": "'LET'S BUILD SOMETHING INTELLIGENT' interactive futuristic contact form with direct WhatsApp redirect, email copy tool, and social links"
+    },
+    {
+      "section": "Footer",
+      "description": "High-impact dark footer with large branding type, live clock, system status, copyright, and smooth back-to-top trigger"
+    }
+  ],
+  "accessibility_and_performance": {
+    "prefers_reduced_motion": "Detect prefers-reduced-motion media query and substitute complex WebGL loops with clean CSS subtle gradients and static 3D perspectives",
+    "contrast_ratio": "Ensure text-to-background contrast ratio >= 4.5:1 on all interactive elements using explicit dark slate/black surfaces behind text",
+    "mobile_optimization": "Limit WebGL particle count on screens < 768px, disable heavy post-processing bloom, and optimize touch gestures"
+  },
+  "data_testid_convention": "kebab-case, role-based identifiers added to all buttons, navigation links, inputs, and interactive cards (e.g., data-testid='nav-link-projects', data-testid='hero-cta-contact', data-testid='skills-3d-canvas', data-testid='contact-submit-button')",
+  "UNIVERSAL GUIDELINES FOR MAIN AGENT": [
+    "You tend to converge toward generic, 'on distribution' outputs. In frontend design, this creates what users call the 'AI slop' aesthetic. Avoid this: make creative, distinctive frontends that surprise and delight.",
+    "Dark colors look good when used independently without gradients. DO NOT use dark colors as gradients",
+    "Don't make generic centered layouts, simplistic gradients, and uniform styling.",
+    "Create depth through layered design elements with z-index hierarchy",
+    "Use glass-morphism effects with backdrop filters (12-24px blur)",
+    "You MUST NOT apply universal transition. Eg: transition: all. This results in breaking transforms. Always add transitions for specific interactive elements like button, input excluding transforms",
+    "You MUST NOT center align the app container, ie do not add .App { text-align: center; } in the css file. This disrupts the human natural reading flow of text",
+    "Always use modern button styles like pill-shaped, or sharp button with interaction animations & color relevant to the app style",
+    "NEVER: use AI assistant Emoji characters like 🤖🧠💭💡🔮🎯 etc for icons. Use Lucide React icons instead.",
+    "Every interaction needs micro-animations - hover states, transitions, parallax effects, and entrance animations. Static = dead.",
+    "Use 2-3x more spacing than feels comfortable. Cramped designs look cheap.",
+    "Subtle grain textures, noise overlays, custom cursors, selection states, and loading animations: separates good from extraordinary.",
+    "Main agent relies on these image URLs. Missing categories (especially sponsor logos) = main agent will use placeholder text which is FORBIDDEN",
+    "Prioritize using pre-existing components from src/components/ui when applicable",
+    "All interactive and key informational elements MUST include a data-testid attribute to facilitate robust automated testing."
+  ]
+}
