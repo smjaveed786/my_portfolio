@@ -140,6 +140,11 @@
   100% { top: 88%; opacity: 0; }
 }
 
+@keyframes spin-slower {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
 .animate-marquee {
   animation: marquee 42s linear infinite;
 }
@@ -168,6 +173,10 @@
   animation: scan-line 3.6s ease-in-out infinite;
 }
 
+.animate-spin-slower {
+  animation: spin-slower 16s linear infinite;
+}
+
 .marquee-paused:hover .animate-marquee,
 .marquee-paused:hover .animate-marquee-reverse {
   animation-play-state: paused;
@@ -180,7 +189,8 @@
   .animate-float-slow,
   .animate-pulse-ring,
   .animate-caret,
-  .animate-scan {
+  .animate-scan,
+  .animate-spin-slower {
     animation: none !important;
   }
 }

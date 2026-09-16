@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import { ArrowDown, ArrowUpRight, Download, Mail } from "lucide-react";
 import { heroCode, personal } from "../data/portfolio";
 import { Magnetic } from "./Magnetic";
+import { Portrait } from "./Portrait";
 import { useIsMobile, usePrefersReducedMotion } from "../hooks/useMotionPrefs";
 
 const HeroScene = lazy(() => import("./three/HeroScene"));
@@ -53,13 +54,35 @@ export const Hero = () => {
       <pre
         data-testid="hero-code-stream"
         aria-hidden="true"
-        className="animate-float-slow pointer-events-none absolute right-[6%] top-[18%] hidden select-none whitespace-pre font-mono text-[11px] leading-loose text-cyan-200/[0.1] lg:block"
+        className="animate-float-slow pointer-events-none absolute left-[46%] top-[5%] hidden select-none whitespace-pre font-mono text-[11px] leading-loose text-cyan-200/[0.1] lg:block"
         style={{ textShadow: "0 0 20px rgba(0,240,255,0.2)" }}
       >
         {heroCode}
       </pre>
 
-      <div className="relative z-10 mx-auto w-full max-w-7xl px-6 pb-24 pt-32 md:px-10 lg:px-16">
+      <div className="relative z-10 mx-auto grid w-full max-w-7xl grid-cols-1 items-center gap-14 px-6 pb-24 pt-32 md:px-10 lg:grid-cols-[1.08fr_0.92fr] lg:px-16">
+        <div>
+        <motion.div
+          initial={reduced ? false : { opacity: 0, scale: 0.85 }}
+          animate={{ opacity: 1, scale: 1 }}
+          transition={{ duration: 0.7, delay: 0.2 }}
+          className="mb-8 lg:hidden"
+        >
+          <div
+            data-testid="hero-portrait-mobile"
+            className="relative h-24 w-24 overflow-hidden rounded-full border border-cyan-400/40 shadow-[0_0_30px_-6px_rgba(0,240,255,0.6)]"
+          >
+            <div
+              className="absolute inset-0"
+              style={{ background: "radial-gradient(circle at 50% 12%, rgba(0,240,255,0.28), #0f172a 72%)" }}
+            />
+            <img
+              src="/javeed-portrait.png"
+              alt="Shaik Mohammad Javeed Ahamed"
+              className="relative h-full w-full object-cover object-top"
+            />
+          </div>
+        </motion.div>
         <motion.div
           initial={reduced ? false : { opacity: 0, y: 18 }}
           animate={{ opacity: 1, y: 0 }}
@@ -147,6 +170,10 @@ export const Hero = () => {
             </a>
           </Magnetic>
         </motion.div>
+        </div>
+        <div className="hidden lg:block">
+          <Portrait />
+        </div>
       </div>
 
       <motion.a
