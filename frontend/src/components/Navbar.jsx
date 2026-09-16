@@ -44,7 +44,7 @@ export const Navbar = () => {
             data-testid="nav-logo"
             className="font-mono text-lg font-semibold text-slate-50"
           >
-            JA<span className="text-cyan-400 animate-caret">_</span>
+            My Portfolio<span className="text-cyan-400 animate-caret">_</span>
           </a>
 
           <div className="hidden items-center gap-7 lg:flex">
@@ -96,7 +96,7 @@ export const Navbar = () => {
           >
             <div className="flex h-16 items-center justify-between px-6">
               <span className="font-mono text-lg font-semibold text-slate-50">
-                JA<span className="text-cyan-400">_</span>
+                My Portfolio<span className="text-cyan-400">_</span>
               </span>
               <button
                 data-testid="mobile-menu-close"

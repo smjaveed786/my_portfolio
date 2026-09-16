@@ -14,7 +14,7 @@ export const personal = {
   github: "https://github.com/smjaveed786",
   githubRepos: "https://github.com/smjaveed786?tab=repositories",
   linkedin: "https://www.linkedin.com/in/shaik-mohammad-javeed-ahamed-68415a26a/",
-  resume: "/Javeed_Ahamed_Resume.pdf",
+  resume: "/resume.pdf",
   availability: "OPEN TO OPPORTUNITIES",
 };
 

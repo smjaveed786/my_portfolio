@@ -8,40 +8,7 @@ const icons = { Bot, Layers, Puzzle };
 export const About = () => (
   <section id="about" data-testid="about-section" className="relative z-10 py-28 md:py-40">
     <div className="mx-auto max-w-7xl px-6 md:px-10 lg:px-16">
-      <div className="mb-16 grid grid-cols-1 items-center gap-12 lg:mb-24 lg:grid-cols-[0.85fr_1.15fr] lg:gap-20">
-        <Reveal>
-          <figure data-testid="about-portrait" className="group relative mx-auto w-full max-w-[420px]">
-            <div
-              className="absolute inset-0 translate-x-4 translate-y-4 rounded-2xl border border-purple-400/25"
-              aria-hidden="true"
-            />
-            <div className="glass relative overflow-hidden rounded-2xl">
-              <div
-                className="absolute inset-0"
-                style={{
-                  background:
-                    "radial-gradient(circle at 30% 6%, rgba(0,240,255,0.2), rgba(15,23,42,0.94) 66%)",
-                }}
-                aria-hidden="true"
-              />
-              <div className="grid-bg absolute inset-0 opacity-30" aria-hidden="true" />
-              <img
-                src="/javeed-portrait.png"
-                alt="Shaik Mohammad Javeed Ahamed — portrait"
-                data-testid="about-portrait-image"
-                className="relative z-10 w-full saturate-[0.82] transition-[filter] duration-500 group-hover:saturate-100"
-              />
-              <span className="absolute left-3 top-3 z-20 h-5 w-5 border-l-2 border-t-2 border-cyan-400/70" aria-hidden="true" />
-              <span className="absolute right-3 top-3 z-20 h-5 w-5 border-r-2 border-t-2 border-cyan-400/70" aria-hidden="true" />
-              <span className="absolute bottom-3 left-3 z-20 h-5 w-5 border-b-2 border-l-2 border-cyan-400/70" aria-hidden="true" />
-              <span className="absolute bottom-3 right-3 z-20 h-5 w-5 border-b-2 border-r-2 border-cyan-400/70" aria-hidden="true" />
-            </div>
-            <figcaption className="mt-5 flex items-center justify-between font-mono text-[10px] uppercase tracking-[0.2em] text-slate-500">
-              <span>fig. 01 — the developer</span>
-              <span className="text-cyan-400/80">Guntur, India</span>
-            </figcaption>
-          </figure>
-        </Reveal>
+      <div className="mb-16 max-w-4xl lg:mb-24">
         <div>
           <SectionHeading
             index="01"
