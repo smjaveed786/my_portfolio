@@ -17,6 +17,7 @@ Premium, highly interactive 3D personal portfolio for Shaik Mohammad Javeed Aham
 
 ## Implemented (2026-07-16)
 - Spotlighted personal portrait in hero: green-screen background removed programmatically (chroma key + despill), holographic glass frame with rotating conic ring, scan-line sweep, floating skill chips, "javeed.exe — online" caption; circular glowing avatar variant on mobile
+- About section editorial portrait: large framed figure with corner brackets, offset purple frame, desaturate-to-color hover, "fig. 01 — the developer" caption, journey write-up + mono facts table (Focus/Base/Status) beside it
 - Immersive hero: R3F particle field, wireframe torus knot/icosahedron/octahedron, distort sphere, infinite grid, mouse parallax rig, masked line-by-line headline reveal, floating agentic code stream, OPEN TO OPPORTUNITIES badge, magnetic CTAs
 - Global background code atmosphere (6 parallax code layers, scroll + mouse reactive, low opacity)
 - Floating glass navbar (opaques on scroll) + animated mobile menu
